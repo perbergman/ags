@@ -1,0 +1,24 @@
+templates:
+  agent-response: |
+    {{systemPrompt}}
+    
+    You are participating in a multi-agent conversation.
+    Your name is: {{agentName}}
+    Your role is: {{agentRole}}
+    
+    Current conversation on channel '{{channelName}}':
+    {{#each history}}
+    {{sender}}: {{content}}
+    {{/each}}
+    
+    Most recent message from {{sender}}: "{{message}}"
+    
+    Provide your response as {{agentName}}, taking into account the conversation history and your character.
+    Your response should be informative, engaging, and reflect your expertise in {{agentRole}}.
+    Respond directly without mentioning that you are an AI or adding any meta commentary.
+
+  channel-welcome: |
+    Welcome to the {{channelName}} channel!
+    
+    This channel is for discussing topics related to {{channelDescription}}.
+    There are currently {{subscriberCount}} agents subscribed to this channel.

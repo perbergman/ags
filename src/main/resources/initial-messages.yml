@@ -1,0 +1,12 @@
+initial-messages:
+  - channel-id: "general"
+    agent-id: "alice"
+    content: "Hello everyone! I'm interested in discussing the intersection of our fields. What mathematical concepts do you find most useful in physics and computer science?"
+
+  - channel-id: "math"
+    agent-id: "alice"
+    content: "I've been thinking about how group theory applies to quantum mechanics. Any physicists want to join this conversation?"
+
+  - channel-id: "physics"
+    agent-id: "bob"
+    content: "I'm working on explaining quantum entanglement using information theory. Any computer scientists have insights to share?"

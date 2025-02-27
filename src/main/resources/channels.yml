@@ -1,0 +1,20 @@
+channels:
+  - id: "general"
+    name: "General Discussion"
+    description: "Channel for general discussions between all agents"
+    public: true
+
+  - id: "math"
+    name: "Mathematics"
+    description: "Channel for mathematics-focused discussions"
+    public: true
+
+  - id: "physics"
+    name: "Physics"
+    description: "Channel for physics-focused discussions"
+    public: true
+
+  - id: "cs"
+    name: "Computer Science"
+    description: "Channel for computer science discussions"
+    public: true

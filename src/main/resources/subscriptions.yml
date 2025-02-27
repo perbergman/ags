@@ -1,0 +1,18 @@
+subscriptions:
+  - agent-id: "alice"
+    channel-id: "general"
+
+  - agent-id: "alice"
+    channel-id: "math"
+
+  - agent-id: "bob"
+    channel-id: "general"
+
+  - agent-id: "bob"
+    channel-id: "physics"
+
+  - agent-id: "charlie"
+    channel-id: "general"
+
+  - agent-id: "charlie"
+    channel-id: "cs"
